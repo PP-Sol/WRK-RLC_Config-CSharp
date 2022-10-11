@@ -1,0 +1,23 @@
+﻿1) Pattern:
+        #region Objects: General
+        
+        #endregion
+
+
+        #region Public Properties: General
+        
+        #endregion
+        
+        #region Public Properties: States
+
+        #endregion
+
+
+        #region Methods: Constructors
+        
+        #endregion
+
+
+        #region Methods: Overrides and Implemented Interfaces
+
+        #endregion

@@ -1,0 +1,1052 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RLC_Configurator" GeneratedClassName="AppSett">
+  <Profiles />
+  <Settings>
+    <Setting Name="App_Author" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Petr Prochazka (prochazka@valcon-int.com)</Value>
+    </Setting>
+    <Setting Name="App_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RLC Configurator</Value>
+    </Setting>
+    <Setting Name="App_Version" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1.0</Value>
+    </Setting>
+    <Setting Name="App_Platform" Type="System.String" Scope="User">
+      <Value Profile="(Default)">64bit</Value>
+    </Setting>
+    <Setting Name="ModSig_Char_DTYPE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D</Value>
+    </Setting>
+    <Setting Name="ModSig_Char_ITYPE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">I</Value>
+    </Setting>
+    <Setting Name="ModSig_Char_FTYPE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">F</Value>
+    </Setting>
+    <Setting Name="ModSig_Char_STYPE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="ModSig_Reg_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">point</Value>
+    </Setting>
+    <Setting Name="ModSig_Add_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">address</Value>
+    </Setting>
+    <Setting Name="ModSig_DataType_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data_type</Value>
+    </Setting>
+    <Setting Name="ModSig_ConvType_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">conv_type</Value>
+    </Setting>
+    <Setting Name="ModSig_C0_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1v</Value>
+    </Setting>
+    <Setting Name="ModSig_C2_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2v</Value>
+    </Setting>
+    <Setting Name="ModSig_C3_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3v</Value>
+    </Setting>
+    <Setting Name="ModSig_C4_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4v</Value>
+    </Setting>
+    <Setting Name="ModSig_C5_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5v</Value>
+    </Setting>
+    <Setting Name="ModSig_C6_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6v</Value>
+    </Setting>
+    <Setting Name="RLC_Comment_Char" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*</Value>
+    </Setting>
+    <Setting Name="ModSig_Reg_Length" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="ModSig_Add_Length" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="ModGroup_Group_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">group</Value>
+    </Setting>
+    <Setting Name="ModGroup_Apos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"</Value>
+    </Setting>
+    <Setting Name="ModGroup_Oper_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">operation</Value>
+    </Setting>
+    <Setting Name="ModGroup_Int_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">interval</Value>
+    </Setting>
+    <Setting Name="ModGroup_Trigg_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">triggerreg</Value>
+    </Setting>
+    <Setting Name="ModGroup_Gate_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gatereg</Value>
+    </Setting>
+    <Setting Name="ModGroup_Slave_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">slave</Value>
+    </Setting>
+    <Setting Name="ModGroup_Funct_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">function</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_Baud" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_DataBits" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_StopBits" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_Retries" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_MsgTout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_InterMsgDel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_SysLog" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_StatReg" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_StatHoldTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_WDTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_CtrlReg" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2010</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_RedReg" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2020</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_DiagReg" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2030</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_LocDrop" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_LocPCI" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_LocBranch" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModComm_Def_LocSlot" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_HWLoc" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;1.1.1&lt;/string&gt;
+  &lt;string&gt;1.1.2&lt;/string&gt;
+  &lt;string&gt;1.1.3&lt;/string&gt;
+  &lt;string&gt;1.1.4&lt;/string&gt;
+  &lt;string&gt;1.1.5&lt;/string&gt;
+  &lt;string&gt;1.1.6&lt;/string&gt;
+  &lt;string&gt;1.1.7&lt;/string&gt;
+  &lt;string&gt;1.1.8&lt;/string&gt;
+  &lt;string&gt;1.2.1&lt;/string&gt;
+  &lt;string&gt;1.2.2&lt;/string&gt;
+  &lt;string&gt;1.2.3&lt;/string&gt;
+  &lt;string&gt;1.2.4&lt;/string&gt;
+  &lt;string&gt;1.2.5&lt;/string&gt;
+  &lt;string&gt;1.2.6&lt;/string&gt;
+  &lt;string&gt;1.2.7&lt;/string&gt;
+  &lt;string&gt;1.2.8&lt;/string&gt;
+  &lt;string&gt;1.3.1&lt;/string&gt;
+  &lt;string&gt;1.3.2&lt;/string&gt;
+  &lt;string&gt;1.3.3&lt;/string&gt;
+  &lt;string&gt;1.3.4&lt;/string&gt;
+  &lt;string&gt;1.3.5&lt;/string&gt;
+  &lt;string&gt;1.3.6&lt;/string&gt;
+  &lt;string&gt;1.3.7&lt;/string&gt;
+  &lt;string&gt;1.3.8&lt;/string&gt;
+  &lt;string&gt;1.4.1&lt;/string&gt;
+  &lt;string&gt;1.4.2&lt;/string&gt;
+  &lt;string&gt;1.4.3&lt;/string&gt;
+  &lt;string&gt;1.4.4&lt;/string&gt;
+  &lt;string&gt;1.4.5&lt;/string&gt;
+  &lt;string&gt;1.4.6&lt;/string&gt;
+  &lt;string&gt;1.4.7&lt;/string&gt;
+  &lt;string&gt;1.4.8&lt;/string&gt;
+  &lt;string&gt;1.5.1&lt;/string&gt;
+  &lt;string&gt;1.5.2&lt;/string&gt;
+  &lt;string&gt;1.5.3&lt;/string&gt;
+  &lt;string&gt;1.5.4&lt;/string&gt;
+  &lt;string&gt;1.5.5&lt;/string&gt;
+  &lt;string&gt;1.5.6&lt;/string&gt;
+  &lt;string&gt;1.5.7&lt;/string&gt;
+  &lt;string&gt;1.5.8&lt;/string&gt;
+  &lt;string&gt;1.6.1&lt;/string&gt;
+  &lt;string&gt;1.6.2&lt;/string&gt;
+  &lt;string&gt;1.6.3&lt;/string&gt;
+  &lt;string&gt;1.6.4&lt;/string&gt;
+  &lt;string&gt;1.6.5&lt;/string&gt;
+  &lt;string&gt;1.6.6&lt;/string&gt;
+  &lt;string&gt;1.6.7&lt;/string&gt;
+  &lt;string&gt;1.6.8&lt;/string&gt;
+  &lt;string&gt;1.7.1&lt;/string&gt;
+  &lt;string&gt;1.7.2&lt;/string&gt;
+  &lt;string&gt;1.7.3&lt;/string&gt;
+  &lt;string&gt;1.7.4&lt;/string&gt;
+  &lt;string&gt;1.7.5&lt;/string&gt;
+  &lt;string&gt;1.7.6&lt;/string&gt;
+  &lt;string&gt;1.7.7&lt;/string&gt;
+  &lt;string&gt;1.7.8&lt;/string&gt;
+  &lt;string&gt;1.8.1&lt;/string&gt;
+  &lt;string&gt;1.8.2&lt;/string&gt;
+  &lt;string&gt;1.8.3&lt;/string&gt;
+  &lt;string&gt;1.8.4&lt;/string&gt;
+  &lt;string&gt;1.8.5&lt;/string&gt;
+  &lt;string&gt;1.8.6&lt;/string&gt;
+  &lt;string&gt;1.8.7&lt;/string&gt;
+  &lt;string&gt;1.8.8&lt;/string&gt;
+  &lt;string&gt;2.1.1&lt;/string&gt;
+  &lt;string&gt;2.1.2&lt;/string&gt;
+  &lt;string&gt;2.1.3&lt;/string&gt;
+  &lt;string&gt;2.1.4&lt;/string&gt;
+  &lt;string&gt;2.1.5&lt;/string&gt;
+  &lt;string&gt;2.1.6&lt;/string&gt;
+  &lt;string&gt;2.1.7&lt;/string&gt;
+  &lt;string&gt;2.1.8&lt;/string&gt;
+  &lt;string&gt;2.2.1&lt;/string&gt;
+  &lt;string&gt;2.2.2&lt;/string&gt;
+  &lt;string&gt;2.2.3&lt;/string&gt;
+  &lt;string&gt;2.2.4&lt;/string&gt;
+  &lt;string&gt;2.2.5&lt;/string&gt;
+  &lt;string&gt;2.2.6&lt;/string&gt;
+  &lt;string&gt;2.2.7&lt;/string&gt;
+  &lt;string&gt;2.2.8&lt;/string&gt;
+  &lt;string&gt;2.3.1&lt;/string&gt;
+  &lt;string&gt;2.3.2&lt;/string&gt;
+  &lt;string&gt;2.3.3&lt;/string&gt;
+  &lt;string&gt;2.3.4&lt;/string&gt;
+  &lt;string&gt;2.3.5&lt;/string&gt;
+  &lt;string&gt;2.3.6&lt;/string&gt;
+  &lt;string&gt;2.3.7&lt;/string&gt;
+  &lt;string&gt;2.3.8&lt;/string&gt;
+  &lt;string&gt;2.4.1&lt;/string&gt;
+  &lt;string&gt;2.4.2&lt;/string&gt;
+  &lt;string&gt;2.4.3&lt;/string&gt;
+  &lt;string&gt;2.4.4&lt;/string&gt;
+  &lt;string&gt;2.4.5&lt;/string&gt;
+  &lt;string&gt;2.4.6&lt;/string&gt;
+  &lt;string&gt;2.4.7&lt;/string&gt;
+  &lt;string&gt;2.4.8&lt;/string&gt;
+  &lt;string&gt;2.5.1&lt;/string&gt;
+  &lt;string&gt;2.5.2&lt;/string&gt;
+  &lt;string&gt;2.5.3&lt;/string&gt;
+  &lt;string&gt;2.5.4&lt;/string&gt;
+  &lt;string&gt;2.5.5&lt;/string&gt;
+  &lt;string&gt;2.5.6&lt;/string&gt;
+  &lt;string&gt;2.5.7&lt;/string&gt;
+  &lt;string&gt;2.5.8&lt;/string&gt;
+  &lt;string&gt;2.6.1&lt;/string&gt;
+  &lt;string&gt;2.6.2&lt;/string&gt;
+  &lt;string&gt;2.6.3&lt;/string&gt;
+  &lt;string&gt;2.6.4&lt;/string&gt;
+  &lt;string&gt;2.6.5&lt;/string&gt;
+  &lt;string&gt;2.6.6&lt;/string&gt;
+  &lt;string&gt;2.6.7&lt;/string&gt;
+  &lt;string&gt;2.6.8&lt;/string&gt;
+  &lt;string&gt;2.7.1&lt;/string&gt;
+  &lt;string&gt;2.7.2&lt;/string&gt;
+  &lt;string&gt;2.7.3&lt;/string&gt;
+  &lt;string&gt;2.7.4&lt;/string&gt;
+  &lt;string&gt;2.7.5&lt;/string&gt;
+  &lt;string&gt;2.7.6&lt;/string&gt;
+  &lt;string&gt;2.7.7&lt;/string&gt;
+  &lt;string&gt;2.7.8&lt;/string&gt;
+  &lt;string&gt;2.8.1&lt;/string&gt;
+  &lt;string&gt;2.8.2&lt;/string&gt;
+  &lt;string&gt;2.8.3&lt;/string&gt;
+  &lt;string&gt;2.8.4&lt;/string&gt;
+  &lt;string&gt;2.8.5&lt;/string&gt;
+  &lt;string&gt;2.8.6&lt;/string&gt;
+  &lt;string&gt;2.8.7&lt;/string&gt;
+  &lt;string&gt;2.8.8&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_HWAddDec" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;18432&lt;/string&gt;
+  &lt;string&gt;18448&lt;/string&gt;
+  &lt;string&gt;18464&lt;/string&gt;
+  &lt;string&gt;18480&lt;/string&gt;
+  &lt;string&gt;18496&lt;/string&gt;
+  &lt;string&gt;18512&lt;/string&gt;
+  &lt;string&gt;18528&lt;/string&gt;
+  &lt;string&gt;18544&lt;/string&gt;
+  &lt;string&gt;18560&lt;/string&gt;
+  &lt;string&gt;18576&lt;/string&gt;
+  &lt;string&gt;18592&lt;/string&gt;
+  &lt;string&gt;18608&lt;/string&gt;
+  &lt;string&gt;18624&lt;/string&gt;
+  &lt;string&gt;18640&lt;/string&gt;
+  &lt;string&gt;18656&lt;/string&gt;
+  &lt;string&gt;18672&lt;/string&gt;
+  &lt;string&gt;18688&lt;/string&gt;
+  &lt;string&gt;18704&lt;/string&gt;
+  &lt;string&gt;18720&lt;/string&gt;
+  &lt;string&gt;18736&lt;/string&gt;
+  &lt;string&gt;18752&lt;/string&gt;
+  &lt;string&gt;18768&lt;/string&gt;
+  &lt;string&gt;18784&lt;/string&gt;
+  &lt;string&gt;18800&lt;/string&gt;
+  &lt;string&gt;18816&lt;/string&gt;
+  &lt;string&gt;18832&lt;/string&gt;
+  &lt;string&gt;18848&lt;/string&gt;
+  &lt;string&gt;18864&lt;/string&gt;
+  &lt;string&gt;18880&lt;/string&gt;
+  &lt;string&gt;18896&lt;/string&gt;
+  &lt;string&gt;18912&lt;/string&gt;
+  &lt;string&gt;18928&lt;/string&gt;
+  &lt;string&gt;18944&lt;/string&gt;
+  &lt;string&gt;18960&lt;/string&gt;
+  &lt;string&gt;18976&lt;/string&gt;
+  &lt;string&gt;18992&lt;/string&gt;
+  &lt;string&gt;19008&lt;/string&gt;
+  &lt;string&gt;19024&lt;/string&gt;
+  &lt;string&gt;19040&lt;/string&gt;
+  &lt;string&gt;19056&lt;/string&gt;
+  &lt;string&gt;19072&lt;/string&gt;
+  &lt;string&gt;19088&lt;/string&gt;
+  &lt;string&gt;19104&lt;/string&gt;
+  &lt;string&gt;19120&lt;/string&gt;
+  &lt;string&gt;19136&lt;/string&gt;
+  &lt;string&gt;19152&lt;/string&gt;
+  &lt;string&gt;19168&lt;/string&gt;
+  &lt;string&gt;19184&lt;/string&gt;
+  &lt;string&gt;19200&lt;/string&gt;
+  &lt;string&gt;19216&lt;/string&gt;
+  &lt;string&gt;19232&lt;/string&gt;
+  &lt;string&gt;19248&lt;/string&gt;
+  &lt;string&gt;19264&lt;/string&gt;
+  &lt;string&gt;19280&lt;/string&gt;
+  &lt;string&gt;19296&lt;/string&gt;
+  &lt;string&gt;19312&lt;/string&gt;
+  &lt;string&gt;19328&lt;/string&gt;
+  &lt;string&gt;19344&lt;/string&gt;
+  &lt;string&gt;19360&lt;/string&gt;
+  &lt;string&gt;19376&lt;/string&gt;
+  &lt;string&gt;19392&lt;/string&gt;
+  &lt;string&gt;19408&lt;/string&gt;
+  &lt;string&gt;19424&lt;/string&gt;
+  &lt;string&gt;19440&lt;/string&gt;
+  &lt;string&gt;19456&lt;/string&gt;
+  &lt;string&gt;19472&lt;/string&gt;
+  &lt;string&gt;19488&lt;/string&gt;
+  &lt;string&gt;19504&lt;/string&gt;
+  &lt;string&gt;19520&lt;/string&gt;
+  &lt;string&gt;19536&lt;/string&gt;
+  &lt;string&gt;19552&lt;/string&gt;
+  &lt;string&gt;19568&lt;/string&gt;
+  &lt;string&gt;19584&lt;/string&gt;
+  &lt;string&gt;19600&lt;/string&gt;
+  &lt;string&gt;19616&lt;/string&gt;
+  &lt;string&gt;19632&lt;/string&gt;
+  &lt;string&gt;19648&lt;/string&gt;
+  &lt;string&gt;19664&lt;/string&gt;
+  &lt;string&gt;19680&lt;/string&gt;
+  &lt;string&gt;19696&lt;/string&gt;
+  &lt;string&gt;19712&lt;/string&gt;
+  &lt;string&gt;19728&lt;/string&gt;
+  &lt;string&gt;19744&lt;/string&gt;
+  &lt;string&gt;19760&lt;/string&gt;
+  &lt;string&gt;19776&lt;/string&gt;
+  &lt;string&gt;19792&lt;/string&gt;
+  &lt;string&gt;19808&lt;/string&gt;
+  &lt;string&gt;19824&lt;/string&gt;
+  &lt;string&gt;19840&lt;/string&gt;
+  &lt;string&gt;19856&lt;/string&gt;
+  &lt;string&gt;19872&lt;/string&gt;
+  &lt;string&gt;19888&lt;/string&gt;
+  &lt;string&gt;19904&lt;/string&gt;
+  &lt;string&gt;19920&lt;/string&gt;
+  &lt;string&gt;19936&lt;/string&gt;
+  &lt;string&gt;19952&lt;/string&gt;
+  &lt;string&gt;19968&lt;/string&gt;
+  &lt;string&gt;19984&lt;/string&gt;
+  &lt;string&gt;20000&lt;/string&gt;
+  &lt;string&gt;20016&lt;/string&gt;
+  &lt;string&gt;20032&lt;/string&gt;
+  &lt;string&gt;20048&lt;/string&gt;
+  &lt;string&gt;20064&lt;/string&gt;
+  &lt;string&gt;20080&lt;/string&gt;
+  &lt;string&gt;20096&lt;/string&gt;
+  &lt;string&gt;20112&lt;/string&gt;
+  &lt;string&gt;20128&lt;/string&gt;
+  &lt;string&gt;20144&lt;/string&gt;
+  &lt;string&gt;20160&lt;/string&gt;
+  &lt;string&gt;20176&lt;/string&gt;
+  &lt;string&gt;20192&lt;/string&gt;
+  &lt;string&gt;20208&lt;/string&gt;
+  &lt;string&gt;20224&lt;/string&gt;
+  &lt;string&gt;20240&lt;/string&gt;
+  &lt;string&gt;20256&lt;/string&gt;
+  &lt;string&gt;20272&lt;/string&gt;
+  &lt;string&gt;20288&lt;/string&gt;
+  &lt;string&gt;20304&lt;/string&gt;
+  &lt;string&gt;20320&lt;/string&gt;
+  &lt;string&gt;20336&lt;/string&gt;
+  &lt;string&gt;20352&lt;/string&gt;
+  &lt;string&gt;20368&lt;/string&gt;
+  &lt;string&gt;20384&lt;/string&gt;
+  &lt;string&gt;20400&lt;/string&gt;
+  &lt;string&gt;20416&lt;/string&gt;
+  &lt;string&gt;20432&lt;/string&gt;
+  &lt;string&gt;20448&lt;/string&gt;
+  &lt;string&gt;20464&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_HWAddHex" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0x4800&lt;/string&gt;
+  &lt;string&gt;0x4810&lt;/string&gt;
+  &lt;string&gt;0x4820&lt;/string&gt;
+  &lt;string&gt;0x4830&lt;/string&gt;
+  &lt;string&gt;0x4840&lt;/string&gt;
+  &lt;string&gt;0x4850&lt;/string&gt;
+  &lt;string&gt;0x4860&lt;/string&gt;
+  &lt;string&gt;0x4870&lt;/string&gt;
+  &lt;string&gt;0x4880&lt;/string&gt;
+  &lt;string&gt;0x4890&lt;/string&gt;
+  &lt;string&gt;0x48A0&lt;/string&gt;
+  &lt;string&gt;0x48B0&lt;/string&gt;
+  &lt;string&gt;0x48C0&lt;/string&gt;
+  &lt;string&gt;0x48D0&lt;/string&gt;
+  &lt;string&gt;0x48E0&lt;/string&gt;
+  &lt;string&gt;0x48F0&lt;/string&gt;
+  &lt;string&gt;0x4900&lt;/string&gt;
+  &lt;string&gt;0x4910&lt;/string&gt;
+  &lt;string&gt;0x4920&lt;/string&gt;
+  &lt;string&gt;0x4930&lt;/string&gt;
+  &lt;string&gt;0x4940&lt;/string&gt;
+  &lt;string&gt;0x4950&lt;/string&gt;
+  &lt;string&gt;0x4960&lt;/string&gt;
+  &lt;string&gt;0x4970&lt;/string&gt;
+  &lt;string&gt;0x4980&lt;/string&gt;
+  &lt;string&gt;0x4990&lt;/string&gt;
+  &lt;string&gt;0x49A0&lt;/string&gt;
+  &lt;string&gt;0x49B0&lt;/string&gt;
+  &lt;string&gt;0x49C0&lt;/string&gt;
+  &lt;string&gt;0x49D0&lt;/string&gt;
+  &lt;string&gt;0x49E0&lt;/string&gt;
+  &lt;string&gt;0x49F0&lt;/string&gt;
+  &lt;string&gt;0x4A00&lt;/string&gt;
+  &lt;string&gt;0x4A10&lt;/string&gt;
+  &lt;string&gt;0x4A20&lt;/string&gt;
+  &lt;string&gt;0x4A30&lt;/string&gt;
+  &lt;string&gt;0x4A40&lt;/string&gt;
+  &lt;string&gt;0x4A50&lt;/string&gt;
+  &lt;string&gt;0x4A60&lt;/string&gt;
+  &lt;string&gt;0x4A70&lt;/string&gt;
+  &lt;string&gt;0x4A80&lt;/string&gt;
+  &lt;string&gt;0x4A90&lt;/string&gt;
+  &lt;string&gt;0x4AA0&lt;/string&gt;
+  &lt;string&gt;0x4AB0&lt;/string&gt;
+  &lt;string&gt;0x4AC0&lt;/string&gt;
+  &lt;string&gt;0x4AD0&lt;/string&gt;
+  &lt;string&gt;0x4AE0&lt;/string&gt;
+  &lt;string&gt;0x4AF0&lt;/string&gt;
+  &lt;string&gt;0x4B00&lt;/string&gt;
+  &lt;string&gt;0x4B10&lt;/string&gt;
+  &lt;string&gt;0x4B20&lt;/string&gt;
+  &lt;string&gt;0x4B30&lt;/string&gt;
+  &lt;string&gt;0x4B40&lt;/string&gt;
+  &lt;string&gt;0x4B50&lt;/string&gt;
+  &lt;string&gt;0x4B60&lt;/string&gt;
+  &lt;string&gt;0x4B70&lt;/string&gt;
+  &lt;string&gt;0x4B80&lt;/string&gt;
+  &lt;string&gt;0x4B90&lt;/string&gt;
+  &lt;string&gt;0x4BA0&lt;/string&gt;
+  &lt;string&gt;0x4BB0&lt;/string&gt;
+  &lt;string&gt;0x4BC0&lt;/string&gt;
+  &lt;string&gt;0x4BD0&lt;/string&gt;
+  &lt;string&gt;0x4BE0&lt;/string&gt;
+  &lt;string&gt;0x4BF0&lt;/string&gt;
+  &lt;string&gt;0x4C00&lt;/string&gt;
+  &lt;string&gt;0x4C10&lt;/string&gt;
+  &lt;string&gt;0x4C20&lt;/string&gt;
+  &lt;string&gt;0x4C30&lt;/string&gt;
+  &lt;string&gt;0x4C40&lt;/string&gt;
+  &lt;string&gt;0x4C50&lt;/string&gt;
+  &lt;string&gt;0x4C60&lt;/string&gt;
+  &lt;string&gt;0x4C70&lt;/string&gt;
+  &lt;string&gt;0x4C80&lt;/string&gt;
+  &lt;string&gt;0x4C90&lt;/string&gt;
+  &lt;string&gt;0x4CA0&lt;/string&gt;
+  &lt;string&gt;0x4CB0&lt;/string&gt;
+  &lt;string&gt;0x4CC0&lt;/string&gt;
+  &lt;string&gt;0x4CD0&lt;/string&gt;
+  &lt;string&gt;0x4CE0&lt;/string&gt;
+  &lt;string&gt;0x4CF0&lt;/string&gt;
+  &lt;string&gt;0x4D00&lt;/string&gt;
+  &lt;string&gt;0x4D10&lt;/string&gt;
+  &lt;string&gt;0x4D20&lt;/string&gt;
+  &lt;string&gt;0x4D30&lt;/string&gt;
+  &lt;string&gt;0x4D40&lt;/string&gt;
+  &lt;string&gt;0x4D50&lt;/string&gt;
+  &lt;string&gt;0x4D60&lt;/string&gt;
+  &lt;string&gt;0x4D70&lt;/string&gt;
+  &lt;string&gt;0x4D80&lt;/string&gt;
+  &lt;string&gt;0x4D90&lt;/string&gt;
+  &lt;string&gt;0x4DA0&lt;/string&gt;
+  &lt;string&gt;0x4DB0&lt;/string&gt;
+  &lt;string&gt;0x4DC0&lt;/string&gt;
+  &lt;string&gt;0x4DD0&lt;/string&gt;
+  &lt;string&gt;0x4DE0&lt;/string&gt;
+  &lt;string&gt;0x4DF0&lt;/string&gt;
+  &lt;string&gt;0x4E00&lt;/string&gt;
+  &lt;string&gt;0x4E10&lt;/string&gt;
+  &lt;string&gt;0x4E20&lt;/string&gt;
+  &lt;string&gt;0x4E30&lt;/string&gt;
+  &lt;string&gt;0x4E40&lt;/string&gt;
+  &lt;string&gt;0x4E50&lt;/string&gt;
+  &lt;string&gt;0x4E60&lt;/string&gt;
+  &lt;string&gt;0x4E70&lt;/string&gt;
+  &lt;string&gt;0x4E80&lt;/string&gt;
+  &lt;string&gt;0x4E90&lt;/string&gt;
+  &lt;string&gt;0x4EA0&lt;/string&gt;
+  &lt;string&gt;0x4EB0&lt;/string&gt;
+  &lt;string&gt;0x4EC0&lt;/string&gt;
+  &lt;string&gt;0x4ED0&lt;/string&gt;
+  &lt;string&gt;0x4EE0&lt;/string&gt;
+  &lt;string&gt;0x4EF0&lt;/string&gt;
+  &lt;string&gt;0x4F00&lt;/string&gt;
+  &lt;string&gt;0x4F10&lt;/string&gt;
+  &lt;string&gt;0x4F20&lt;/string&gt;
+  &lt;string&gt;0x4F30&lt;/string&gt;
+  &lt;string&gt;0x4F40&lt;/string&gt;
+  &lt;string&gt;0x4F50&lt;/string&gt;
+  &lt;string&gt;0x4F60&lt;/string&gt;
+  &lt;string&gt;0x4F70&lt;/string&gt;
+  &lt;string&gt;0x4F80&lt;/string&gt;
+  &lt;string&gt;0x4F90&lt;/string&gt;
+  &lt;string&gt;0x4FA0&lt;/string&gt;
+  &lt;string&gt;0x4FB0&lt;/string&gt;
+  &lt;string&gt;0x4FC0&lt;/string&gt;
+  &lt;string&gt;0x4FD0&lt;/string&gt;
+  &lt;string&gt;0x4FE0&lt;/string&gt;
+  &lt;string&gt;0x4FF0&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadName_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Name</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadProject_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Project</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadRev_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Revision</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadAuth_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Author</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadComp_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Company</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadHW_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hardware</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadDate_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Date</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadInd" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="ModComm_Head_Drop" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Drop</Value>
+    </Setting>
+    <Setting Name="ModComm_Head_PCI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PCI</Value>
+    </Setting>
+    <Setting Name="ModComm_Head_Branch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Branch</Value>
+    </Setting>
+    <Setting Name="ModComm_Head_Slot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Slot</Value>
+    </Setting>
+    <Setting Name="ModComm_Head_HWAdd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HW address</Value>
+    </Setting>
+    <Setting Name="ModComm_HeadDesc_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Description</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_Platform" Type="System.String" Scope="User">
+      <Value Profile="(Default)">platform</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_Baud" Type="System.String" Scope="User">
+      <Value Profile="(Default)">baud</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_DataBits" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data_bits</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_Parity" Type="System.String" Scope="User">
+      <Value Profile="(Default)">parity</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_StopBits" Type="System.String" Scope="User">
+      <Value Profile="(Default)">stop_bits</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_Retries" Type="System.String" Scope="User">
+      <Value Profile="(Default)">retries</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_FlowCtrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">flow_ctl</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_Duplex" Type="System.String" Scope="User">
+      <Value Profile="(Default)">duplex</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_MsgTout" Type="System.String" Scope="User">
+      <Value Profile="(Default)">timeout</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_InterMsgDel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">inter_msg_delay</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_SysLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">syslog</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_LinkStatReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">link_stat_reg</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_StatHoldTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">status_hold_time</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_WDTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">watchdog_time</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_CtrlReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">control_reg</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_RedReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">executedoncereg</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_BackupMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">backupmodeaction</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_DiagReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">diag_reg</Value>
+    </Setting>
+    <Setting Name="ModComm_Text_List" Type="System.String" Scope="User">
+      <Value Profile="(Default)">list</Value>
+    </Setting>
+    <Setting Name="RLC_Baud" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;110&lt;/string&gt;
+  &lt;string&gt;300&lt;/string&gt;
+  &lt;string&gt;1200&lt;/string&gt;
+  &lt;string&gt;2400&lt;/string&gt;
+  &lt;string&gt;9600&lt;/string&gt;
+  &lt;string&gt;19200&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_DataBits" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;7&lt;/string&gt;
+  &lt;string&gt;8&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Parity" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;odd&lt;/string&gt;
+  &lt;string&gt;even&lt;/string&gt;
+  &lt;string&gt;none&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_StopBits" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;1&lt;/string&gt;
+  &lt;string&gt;1.5&lt;/string&gt;
+  &lt;string&gt;2&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Duplex" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;half&lt;/string&gt;
+  &lt;string&gt;full&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Platform" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;PC&lt;/string&gt;
+  &lt;string&gt;QLC&lt;/string&gt;
+  &lt;string&gt;RLC&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_FlowCtrl" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;on&lt;/string&gt;
+  &lt;string&gt;off&lt;/string&gt;
+  &lt;string&gt;rts_on_tx&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_SysLog" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;1&lt;/string&gt;
+  &lt;string&gt;2&lt;/string&gt;
+  &lt;string&gt;3&lt;/string&gt;
+  &lt;string&gt;4&lt;/string&gt;
+  &lt;string&gt;5&lt;/string&gt;
+  &lt;string&gt;6&lt;/string&gt;
+  &lt;string&gt;7&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_BackupModeReact" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;never&lt;/string&gt;
+  &lt;string&gt;mute&lt;/string&gt;
+  &lt;string&gt;read_only&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_List" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;off&lt;/string&gt;
+  &lt;string&gt;on&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Retries_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RLC_MsgTout_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RLC_InterMsgDel_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RLC_LinkStatReg_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2044</Value>
+    </Setting>
+    <Setting Name="RLC_StatHoldTime_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2147483647</Value>
+    </Setting>
+    <Setting Name="RLC_WDTime_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RLC_CtrlReg_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2047</Value>
+    </Setting>
+    <Setting Name="RLC_ExOnceReg_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2047</Value>
+    </Setting>
+    <Setting Name="RLC_Diag_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2047</Value>
+    </Setting>
+    <Setting Name="RLC_Retries_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_MsgTout_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_InterMsgDel_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_LinkStatReg_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_StatHoldTime_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_WDTime_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_CtrlReg_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_ExOnceReg_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Diag_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Drop_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="RLC_Drop_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="RLC_PCI_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="RLC_PCI_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="RLC_Branch_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="RLC_Branch_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="RLC_Slot_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="RLC_Slot_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="RLC_Baud_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">110</Value>
+    </Setting>
+    <Setting Name="RLC_Baud_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">19200</Value>
+    </Setting>
+    <Setting Name="RLC_DataBits_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="RLC_DataBits_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="RLC_StopBits_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="RLC_StopBits_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="RLC_SysLog_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="RLC_SysLog_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="App_Errors_LinkStatReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected number of Link Status Register already exists!</Value>
+    </Setting>
+    <Setting Name="App_Errors_CtrlStatReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected number of Control Register already exists!</Value>
+    </Setting>
+    <Setting Name="App_Errors_ExOnceReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected number of Executed Once Register already exists!</Value>
+    </Setting>
+    <Setting Name="App_Errors_DiagReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected number of Diag Register already exists!</Value>
+    </Setting>
+    <Setting Name="App_Group_GroupBox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Groups</Value>
+    </Setting>
+    <Setting Name="App_Group_SigBox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Signals</Value>
+    </Setting>
+    <Setting Name="ModGroup_Def_Index" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModGroup_Def_Int" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModGroup_Def_Trigg" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModGroup_Def_Gate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ModGroup_Def_Slave" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="RLC_Operation" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;periodic&lt;/string&gt;
+  &lt;string&gt;triggered&lt;/string&gt;
+  &lt;string&gt;gated&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Function" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;RCS&lt;/string&gt;
+  &lt;string&gt;RIS&lt;/string&gt;
+  &lt;string&gt;RHR&lt;/string&gt;
+  &lt;string&gt;RIR&lt;/string&gt;
+  &lt;string&gt;FSC&lt;/string&gt;
+  &lt;string&gt;PSR&lt;/string&gt;
+  &lt;string&gt;RES&lt;/string&gt;
+  &lt;string&gt;FMC&lt;/string&gt;
+  &lt;string&gt;PMR&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Interval_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Interval_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3600000</Value>
+    </Setting>
+    <Setting Name="RLC_Trigger_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Trigger_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2047</Value>
+    </Setting>
+    <Setting Name="RLC_Gate_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Gate_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2047</Value>
+    </Setting>
+    <Setting Name="RLC_Slave_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="RLC_Slave_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="RLC_RegisterTypes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;I&lt;/string&gt;
+  &lt;string&gt;F&lt;/string&gt;
+  &lt;string&gt;S&lt;/string&gt;
+  &lt;string&gt;D&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Registers_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Registers_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2047</Value>
+    </Setting>
+    <Setting Name="ModSig_Types" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;AI&lt;/string&gt;
+  &lt;string&gt;AO&lt;/string&gt;
+  &lt;string&gt;PI&lt;/string&gt;
+  &lt;string&gt;PO&lt;/string&gt;
+  &lt;string&gt;DI&lt;/string&gt;
+  &lt;string&gt;DO&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_ConvTypes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
+  &lt;string&gt;1&lt;/string&gt;
+  &lt;string&gt;2&lt;/string&gt;
+  &lt;string&gt;3&lt;/string&gt;
+  &lt;string&gt;4&lt;/string&gt;
+  &lt;string&gt;5&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_Bits_None" Type="System.String" Scope="User">
+      <Value Profile="(Default)">none</Value>
+    </Setting>
+    <Setting Name="App_SelGroup_GroupBox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected Group:</Value>
+    </Setting>
+    <Setting Name="App_Errors_TrigReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected number of Trigger Register already exists!</Value>
+    </Setting>
+    <Setting Name="App_Errors_GateReg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected number of Gate Register already exists!</Value>
+    </Setting>
+    <Setting Name="App_Errors_GroupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selected name of the group already exists!</Value>
+    </Setting>
+    <Setting Name="App_Def_GroupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;NEW GROUP&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_GroupNum_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="App_MainMenu_AddGroup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Add</Value>
+    </Setting>
+    <Setting Name="App_MainMenu_RemGroup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Remove</Value>
+    </Setting>
+    <Setting Name="RLC_ModAdd_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_ModAdd_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RLC_ModAddBit_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_ModAddBit_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="App_Symbol_True" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="App_Symbol_False" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_BitMask_Min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_BitMask_Max" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RLC_Code_HR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HR</Value>
+    </Setting>
+    <Setting Name="RLC_Code_IR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IR</Value>
+    </Setting>
+    <Setting Name="RLC_Code_Coils" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C</Value>
+    </Setting>
+    <Setting Name="RLC_Code_Inputs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">I</Value>
+    </Setting>
+    <Setting Name="RLC_Prefix_Coils" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RLC_Prefix_Inputs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="RLC_Prefix_IR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="RLC_Prefix_HR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="ModPoint_ErrCode_Desc" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;No Error&lt;/string&gt;
+  &lt;string&gt;Point is not valid&lt;/string&gt;
+  &lt;string&gt;Register type is D and the modbus address is not binary&lt;/string&gt;
+  &lt;string&gt;Register type is I/F/S and the modbus address is not analog&lt;/string&gt;
+  &lt;string&gt;Signal direction is output and modbus storage cannot be written&lt;/string&gt;
+  &lt;string&gt;The modbus storage type is not equeal to storage type determined by the function&lt;/string&gt;
+  &lt;string&gt;The modbus address is binary and the conversion is not X=Y&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RLC_DataTypes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;INT16&lt;/string&gt;
+  &lt;string&gt;UINT16&lt;/string&gt;
+  &lt;string&gt;INT32&lt;/string&gt;
+  &lt;string&gt;INT32REV&lt;/string&gt;
+  &lt;string&gt;INT32_BS&lt;/string&gt;
+  &lt;string&gt;INT32_WS_BS&lt;/string&gt;
+  &lt;string&gt;UINT32&lt;/string&gt;
+  &lt;string&gt;UINT32REV&lt;/string&gt;
+  &lt;string&gt;UINT32_BS&lt;/string&gt;
+  &lt;string&gt;UINT32_WS_BS&lt;/string&gt;
+  &lt;string&gt;BCD4&lt;/string&gt;
+  &lt;string&gt;BCD8&lt;/string&gt;
+  &lt;string&gt;FLOAT&lt;/string&gt;
+  &lt;string&gt;FLOARREV&lt;/string&gt;
+  &lt;string&gt;FLOAT_BS&lt;/string&gt;
+  &lt;string&gt;FLOAT_WS_BS&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
